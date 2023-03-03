@@ -22,6 +22,7 @@ import {
 import { DiCss3, DiDocker } from "react-icons/di";
 import { VscJson } from "react-icons/vsc";
 import { IoLogoJavascript } from "react-icons/io";
+
 export const Projects = () => {
   return (
     <>
