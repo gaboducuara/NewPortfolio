@@ -2,6 +2,10 @@ import React from "react";
 import "./Projects.css";
 import { FaReact, FaHardHat } from "react-icons/fa";
 import {
+  SiTypescript,
+  SiAmazon,
+  SiVite,
+  SiDocker,
   SiBlockchaindotcom,
   SiHtml5,
   SiMaterialui,
@@ -15,7 +19,7 @@ import {
   SiMongodb,
   SiNodedotjs,
 } from "react-icons/si";
-import { DiCss3 } from "react-icons/di";
+import { DiCss3, DiDocker } from "react-icons/di";
 import { VscJson } from "react-icons/vsc";
 import { IoLogoJavascript } from "react-icons/io";
 export const Projects = () => {
@@ -161,26 +165,26 @@ export const Projects = () => {
               <div className="project_videocontainer">
                 <div>
                   <img
-                    src="https://aem.dropbox.com/cms/content/dam/dropbox/www/en-us/branding/dropbox-logo@2x.jpg"
+                    src="https://i.ibb.co/VV9c9fZ/Captura-de-pantalla-17.png"
                     alt=""
                   />
                 </div>
               </div>
               <div className="project_information">
-                <h2>e-ecommerce</h2>
+                <h2>CONTRATÁ</h2>
                 <p>
-                Una aplicación donde los usuarios realizan sus compras en el área tecnológica (Tv, Celulares , Computadoras) según API.
+                Aplicacion en donde encontraras servicios profesionales para tu hogar, con referencia de clientes reales y con nuestro respaldo y garantía.
                 </p>
                 <div>
                   <FaReact />
-                  <IoLogoJavascript />
+                  <SiVite/>
                   <SiNodedotjs />
                   <SiExpress />
                   <SiMongodb />
                 </div>
                 <div>
                   <a
-                    href="https://bucolic-tiramisu-4591ff.netlify.app/"
+                    href="https://contrata.vercel.app/"
                     target="_blank"
                     rel="noreferrer"
                   >
@@ -189,7 +193,7 @@ export const Projects = () => {
                     </span>
                   </a>
                   <a
-                    href="https://github.com/gaboducuara/ecommercefull2"
+                    href="https://github.com/No-Country/S6-15-M-MERN/tree/main"
                     target="_blank"
                     rel="noreferrer"
                   >
@@ -250,6 +254,59 @@ export const Projects = () => {
               </div>
             </div>
           </div>
+
+
+          <div className="projects_container" data-aos="fade-right">
+            <div className="project">
+              <div className="project_videocontainer">
+                <div>
+                  <img
+                    src="https://i.ibb.co/VV9c9fZ/Captura-de-pantalla-17.png"
+                    alt="Uniqlo-Clone"
+                  />
+                </div>
+              </div>
+              <div className="project_information">
+                <h2>CONTRATÁ</h2>
+                <p>
+                Aplicacion en donde encontraras servicios profesionales para tu hogar, con referencia de clientes reales y con nuestro respaldo y garantía.
+                </p>
+                <div>
+                  {/* <FaReact /> */}
+                  <SiTypescript />
+                  <SiNodedotjs />
+                  <SiExpress />
+                  <SiMongodb />
+                  <SiDocker />
+                  {/* <DiDocker /> */}
+                  <SiVite />
+                  <SiAmazon />
+                </div>
+                <div>
+                  <a
+                    href="https://contrata.vercel.app/"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    <span type="button" className="btns onbt onbt">
+                      See this Live
+                    </span>
+                  </a>
+                  <a
+                    href="https://github.com/No-Country/S6-15-M-MERN/tree/main"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    <span type="button" className="btns onbt">
+                      View Code
+                    </span>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+
           <div className="projects_container" data-aos="fade-right">
             <div className="project">
               <div className="project_videocontainer">
@@ -263,8 +320,8 @@ export const Projects = () => {
               <div className="project_information">
                 <h2>Dispersion</h2>
                 <p>
-                Se realiza Sprint de 4 semanas en donde desarrollamos una Aplicación MERN STACK, en donde el usuario tiene la posibilidad de
-                realizar una Cotización Textil.
+                Se realiza Sprint de 4 semanas en donde desarrollamos una Aplicación MERN STACK, donde los usuarios tienen la posibilidad de
+                realizar Cotizaciónes Textiles.
                 </p>
                 <div>
                   {/* <DiCss3 />
