@@ -29,6 +29,7 @@ export const Projects = () => {
       <div className="section">
         <h2 className="section__title different">Proyectos</h2>
         <div className="allProjects">
+
           <div className="projects_container" data-aos="fade-right">
             <div className="project">
               <div className="project_videocontainer">
@@ -74,6 +75,7 @@ export const Projects = () => {
               </div>
             </div>
           </div>
+          
           <div className="projects_container" data-aos="fade-right">
             <div className="project">
               <div className="project_videocontainer">
@@ -161,31 +163,31 @@ export const Projects = () => {
             </div>
           </div>
 
-          {/* <div className="projects_container" data-aos="fade-right">
+          <div className="projects_container" data-aos="fade-right">
             <div className="project">
               <div className="project_videocontainer">
                 <div>
                   <img
-                    src="https://i.ibb.co/VV9c9fZ/Captura-de-pantalla-17.png"
+                    src="https://i.postimg.cc/d3zv1MLV/Memoria-en-react.png"
                     alt=""
                   />
                 </div>
               </div>
               <div className="project_information">
-                <h2>CONTRATÁ</h2>
+                <h2>Memoria en React js</h2>
                 <p>
-                Aplicacion en donde encontraras servicios profesionales para tu hogar, con referencia de clientes reales y con nuestro respaldo y garantía.
+                  Juego interactivo en memoria donde tendras que adivinar las posiciones en par de los diferentes lenaguajes de programacion, frameworks y tecnologias mas populares actualmente.
                 </p>
                 <div>
                   <FaReact />
                   <SiVite/>
-                  <SiNodedotjs />
-                  <SiExpress />
-                  <SiMongodb />
+                  {/* // <SiNodedotjs />
+                  // <SiExpress />
+                  // <SiMongodb /> */}
                 </div>
                 <div>
                   <a
-                    href="https://contrata.vercel.app/"
+                    href="https://memoramareact.netlify.app/"
                     target="_blank"
                     rel="noreferrer"
                   >
@@ -194,7 +196,7 @@ export const Projects = () => {
                     </span>
                   </a>
                   <a
-                    href="https://github.com/No-Country/S6-15-M-MERN/tree/main"
+                    href="https://github.com/gaboducuara/MemoramaReact.git"
                     target="_blank"
                     rel="noreferrer"
                   >
@@ -205,7 +207,54 @@ export const Projects = () => {
                 </div>
               </div>
             </div>
-          </div> */}
+          </div>
+
+          <div className="projects_container" data-aos="fade-right">
+            <div className="project">
+              <div className="project_videocontainer">
+                <div>
+                  <img
+                    src="https://i.postimg.cc/7YV0nfX4/Captura-de-pantallaaaa-69.png"
+                    alt=""
+                  />
+                </div>
+              </div>
+              <div className="project_information">
+                <h2>Memorama JavaScript</h2>
+                <p>
+                  Juego interactivo en memoria donde tendras que adivinar las posiciones en par de los diferentes lenaguajes de programacion mas populares actualmente.
+                </p>
+                <div>
+                <SiJavascript/>
+                  {/* <FaReact />
+                  <SiVite/> */}
+                  {/* // <SiNodedotjs />
+                  // <SiExpress />
+                  // <SiMongodb /> */}
+                </div>
+                <div>
+                  <a
+                    href="https://memorama-javascript.netlify.app/"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    <span type="button" className="btns onbt onbt">
+                      URL for the API
+                    </span>
+                  </a>
+                  <a
+                    href="https://github.com/gaboducuara/memoramaJavaScript.git"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    <span type="button" className="btns onbt">
+                      View Code
+                    </span>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
 
           <div className="projects_container" data-aos="fade-right">
             <div className="project">
