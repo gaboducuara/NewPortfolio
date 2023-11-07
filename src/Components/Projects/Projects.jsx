@@ -192,7 +192,7 @@ export const Projects = () => {
                     rel="noreferrer"
                   >
                     <span type="button" className="btns onbt onbt">
-                      URL for the API
+                    See this Live
                     </span>
                   </a>
                   <a
@@ -239,7 +239,7 @@ export const Projects = () => {
                     rel="noreferrer"
                   >
                     <span type="button" className="btns onbt onbt">
-                      URL for the API
+                    See this Live
                     </span>
                   </a>
                   <a
