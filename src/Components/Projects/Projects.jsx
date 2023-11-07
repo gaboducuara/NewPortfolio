@@ -176,7 +176,7 @@ export const Projects = () => {
               <div className="project_information">
                 <h2>Memoria en React js</h2>
                 <p>
-                  Juego interactivo en memoria donde tendras que adivinar las posiciones en par de los diferentes lenaguajes de programacion, frameworks y tecnologias mas populares actualmente.
+                  Juego interactivo en memoria donde tendras que adivinar las posiciones en par de los diferentes lenguajes de programacion, frameworks y tecnologias mas populares actualmente.
                 </p>
                 <div>
                   <FaReact />
@@ -222,11 +222,11 @@ export const Projects = () => {
               <div className="project_information">
                 <h2>Memorama JavaScript</h2>
                 <p>
-                  Juego interactivo en memoria donde tendras que adivinar las posiciones en par de los diferentes lenaguajes de programacion mas populares actualmente.
+                  Juego interactivo en memoria donde tendras que adivinar las posiciones en par de los diferentes lenguajes de programacion mas populares actualmente.
                 </p>
                 <div>
                 <SiJavascript/>
-                  {/* <FaReact />
+                  {/* <FaReact />https://memorama-javascript.netlify.app/
                   <SiVite/> */}
                   {/* // <SiNodedotjs />
                   // <SiExpress />
